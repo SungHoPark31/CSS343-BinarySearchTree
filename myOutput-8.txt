@@ -1,0 +1,107 @@
+Initial data:
+  longing rusted furnace daybreak seventeen benign nine homecoming one freightCar $$ 
+Tree Inorder:
+benign daybreak freightCar furnace homecoming longing nine one rusted seventeen 
+                seventeen
+            rusted
+                    one
+                nine
+        longing
+                homecoming
+            furnace
+                    freightCar
+                daybreak
+                    benign
+Retrieve --> rusted:  found
+Retrieve --> longing:  found
+Retrieve --> fur:  not found
+Height    --> rusted:  3
+Height    --> longing:  4
+Height    --> fur:  0
+Height    --> daybreak:  2
+Height    --> seventeen:  1
+Height    --> benign:  1
+Height    --> nine:  2
+Height    --> homecoming:  1
+Height    --> one:  1
+Height    --> freightCar:  1
+T == T2?     equal
+T != first?  equal
+T == dup?    equal
+                    seventeen
+                rusted
+            one
+                    nine
+                longing
+        homecoming
+                    furnace
+                freightCar
+            daybreak
+                benign
+---------------------------------------------------------------
+Initial data:
+  train short snowpierce solo $$ 
+Tree Inorder:
+short snowpierce solo train 
+        train
+                    solo
+                snowpierce
+            short
+Retrieve --> rusted:  not found
+Retrieve --> longing:  not found
+Retrieve --> fur:  not found
+Height    --> rusted:  0
+Height    --> longing:  0
+Height    --> fur:  0
+Height    --> daybreak:  0
+Height    --> seventeen:  0
+Height    --> benign:  0
+Height    --> nine:  0
+Height    --> homecoming:  0
+Height    --> one:  0
+Height    --> freightCar:  0
+T == T2?     equal
+T != first?  not equal
+T == dup?    not equal
+                train
+            solo
+        snowpierce
+            short
+---------------------------------------------------------------
+Initial data:
+  data reaching placeholder twelve copy film bending $$ 
+Tree Inorder:
+bending copy data film placeholder reaching twelve 
+                twelve
+            reaching
+                placeholder
+                    film
+        data
+            copy
+                bending
+Retrieve --> rusted:  not found
+Retrieve --> longing:  not found
+Retrieve --> fur:  not found
+Height    --> rusted:  0
+Height    --> longing:  0
+Height    --> fur:  0
+Height    --> daybreak:  0
+Height    --> seventeen:  0
+Height    --> benign:  0
+Height    --> nine:  0
+Height    --> homecoming:  0
+Height    --> one:  0
+Height    --> freightCar:  0
+T == T2?     equal
+T != first?  not equal
+T == dup?    not equal
+                twelve
+            reaching
+                placeholder
+        film
+                data
+            copy
+                bending
+---------------------------------------------------------------
+Initial data:
+   
